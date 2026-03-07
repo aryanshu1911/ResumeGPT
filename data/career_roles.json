@@ -1,0 +1,934 @@
+[
+  {
+    "role": "Machine Learning Engineer",
+    "description": "Design and deploy machine learning models and pipelines. Work with large datasets, feature engineering, model training, evaluation, and deployment in production systems.",
+    "required_skills": [
+      "Python",
+      "Machine Learning",
+      "Deep Learning",
+      "Mathematics",
+      "Statistics",
+      "Data Science",
+      "Model Deployment",
+      "MLOps"
+    ],
+    "tools": [
+      "TensorFlow",
+      "PyTorch",
+      "Scikit-Learn",
+      "Numpy",
+      "Pandas",
+      "Jupyter",
+      "Keras"
+    ],
+    "keywords": [
+      "python",
+      "machine learning",
+      "deep learning",
+      "tensorflow",
+      "tf",
+      "pytorch",
+      "scikit-learn",
+      "sklearn",
+      "numpy",
+      "pandas",
+      "data science",
+      "neural networks",
+      "nlp",
+      "computer vision",
+      "model deployment",
+      "mlops",
+      "statistics",
+      "linear algebra",
+      "jupyter",
+      "keras"
+    ],
+    "roadmap_steps": [
+      "Master Python and core Python data libraries (Numpy, Pandas).",
+      "Learn foundational Machine Learning algorithms (Scikit-Learn).",
+      "Dive into Deep Learning frameworks (TensorFlow or PyTorch).",
+      "Understand model evaluation metrics and hyperparameter tuning.",
+      "Learn MLOps principles: Model deployment, tracking, and scaling."
+    ]
+  },
+  {
+    "role": "Data Scientist",
+    "description": "Analyze complex data sets to drive business decisions. Build predictive models, perform statistical analysis, and effectively communicate insights.",
+    "required_skills": [
+      "Python",
+      "R",
+      "SQL",
+      "Statistics",
+      "Machine Learning",
+      "Data Visualization",
+      "Data Wrangling",
+      "A/B Testing"
+    ],
+    "tools": [
+      "Pandas",
+      "Scikit-Learn",
+      "Tableau",
+      "Power BI",
+      "Jupyter",
+      "Matplotlib",
+      "Seaborn"
+    ],
+    "keywords": [
+      "python",
+      "r",
+      "sql",
+      "statistics",
+      "machine learning",
+      "data visualization",
+      "pandas",
+      "scikit-learn",
+      "tableau",
+      "power bi",
+      "jupyter",
+      "matplotlib",
+      "seaborn",
+      "a/b testing",
+      "data mining",
+      "predictive modeling"
+    ],
+    "roadmap_steps": [
+      "Develop strong SQL skills for data extraction.",
+      "Master Python/R for data manipulation and statistical analysis.",
+      "Learn to build and interpret Machine Learning models.",
+      "Master data visualization tools to communicate insights (Tableau/Power BI).",
+      "Practice A/B testing and experimental design."
+    ]
+  },
+  {
+    "role": "Data Analyst",
+    "description": "Analyze datasets to extract business insights. Create dashboards, reports, and visualizations to support data-driven decision making.",
+    "required_skills": [
+      "SQL",
+      "Data Visualization",
+      "Data Cleaning",
+      "Data Analysis",
+      "Statistics",
+      "Business Intelligence"
+    ],
+    "tools": [
+      "Excel",
+      "Tableau",
+      "Power BI",
+      "Python",
+      "Pandas",
+      "Google Analytics"
+    ],
+    "keywords": [
+      "sql",
+      "python",
+      "excel",
+      "tableau",
+      "power bi",
+      "pandas",
+      "data visualization",
+      "statistics",
+      "google analytics",
+      "etl",
+      "data cleaning",
+      "reporting",
+      "dashboarding"
+    ],
+    "roadmap_steps": [
+      "Master advanced Excel functions and pivot tables.",
+      "Learn SQL for querying relational databases.",
+      "Learn a BI tool like Tableau or Power BI.",
+      "Learn Python and Pandas for programmatic data cleaning.",
+      "Understand basic statistical concepts for business reporting."
+    ]
+  },
+  {
+    "role": "Backend Developer",
+    "description": "Build robust server-side applications, APIs, and database systems. Focus on performance, scalability, security, and data integrity.",
+    "required_skills": [
+      "Programming",
+      "System Design",
+      "Database Management",
+      "API Design",
+      "Security",
+      "Testing",
+      "Caching"
+    ],
+    "tools": [
+      "Python",
+      "Java",
+      "Node.js",
+      "SQL",
+      "PostgreSQL",
+      "MongoDB",
+      "Redis",
+      "Docker",
+      "Git"
+    ],
+    "keywords": [
+      "python",
+      "java",
+      "node.js",
+      "nodejs",
+      "c#",
+      "go",
+      "express",
+      "django",
+      "flask",
+      "fastapi",
+      "sql",
+      "postgresql",
+      "mongodb",
+      "redis",
+      "rest api",
+      "graphql",
+      "docker",
+      "microservices",
+      "rabbitmq",
+      "celery",
+      "git"
+    ],
+    "roadmap_steps": [
+      "Master a backend language (Python, Node.js, Java, Go).",
+      "Learn to design and build RESTful APIs.",
+      "Understand relational (SQL) and NoSQL databases.",
+      "Learn caching mechanisms (Redis) and message queues.",
+      "Study System Design and microservices architecture."
+    ]
+  },
+  {
+    "role": "Frontend Developer",
+    "description": "Create responsive, accessible, and performant user interfaces. Work closely with designers and backend teams to deliver seamless web experiences.",
+    "required_skills": [
+      "HTML",
+      "CSS",
+      "JavaScript",
+      "Responsive Design",
+      "Web Performance",
+      "Accessibility",
+      "State Management"
+    ],
+    "tools": [
+      "React",
+      "Vue",
+      "Angular",
+      "Tailwind HTML",
+      "Sass",
+      "Webpack",
+      "Vite",
+      "Git",
+      "Figma"
+    ],
+    "keywords": [
+      "html",
+      "css",
+      "javascript",
+      "react",
+      "reactjs",
+      "vue",
+      "angular",
+      "tailwind",
+      "sass",
+      "webpack",
+      "vite",
+      "git",
+      "figma",
+      "responsive design",
+      "accessibility",
+      "state management",
+      "redux"
+    ],
+    "roadmap_steps": [
+      "Master HTML, CSS, and modern JavaScript (ES6+).",
+      "Learn a modern JavaScript framework (React, Vue, or Angular).",
+      "Understand state management and routing.",
+      "Learn CSS preprocessors (Sass) or utility frameworks (Tailwind).",
+      "Focus on web accessibility (a11y) and performance optimization."
+    ]
+  },
+  {
+    "role": "Full Stack Developer",
+    "description": "Build end-to-end web applications including both frontend interfaces and backend APIs. Proficient across the entire web stack.",
+    "required_skills": [
+      "Frontend Development",
+      "Backend Development",
+      "Database Management",
+      "API Design",
+      "Version Control",
+      "Deployment"
+    ],
+    "tools": [
+      "JavaScript",
+      "React",
+      "Node.js",
+      "Express",
+      "SQL",
+      "MongoDB",
+      "Docker",
+      "Git",
+      "AWS"
+    ],
+    "keywords": [
+      "javascript",
+      "react",
+      "node.js",
+      "nodejs",
+      "express",
+      "html",
+      "css",
+      "mongodb",
+      "sql",
+      "rest api",
+      "typescript",
+      "next.js",
+      "nextjs",
+      "vue",
+      "angular",
+      "git",
+      "docker",
+      "aws",
+      "postgresql",
+      "tailwind",
+      "graphql",
+      "full stack"
+    ],
+    "roadmap_steps": [
+      "Master the frontend stack (HTML/CSS/JS/React).",
+      "Learn backend development and API creation (Node.js/Python).",
+      "Learn database design (SQL and NoSQL).",
+      "Understand authentication and authorization strategies.",
+      "Learn basic DevOps for deployment (Docker, CI/CD)."
+    ]
+  },
+  {
+    "role": "Cybersecurity Analyst",
+    "description": "Protect systems and networks from cyber threats. Perform vulnerability assessments, monitor network traffic, and handle incident response.",
+    "required_skills": [
+      "Network Security",
+      "Incident Response",
+      "Vulnerability Assessment",
+      "Threat Hunting",
+      "Cryptography",
+      "Risk Management"
+    ],
+    "tools": [
+      "Linux",
+      "Wireshark",
+      "Nmap",
+      "Burp Suite",
+      "Metasploit",
+      "Splunk",
+      "SIEM"
+    ],
+    "keywords": [
+      "cybersecurity",
+      "penetration testing",
+      "network security",
+      "firewalls",
+      "encryption",
+      "linux",
+      "wireshark",
+      "nmap",
+      "burp suite",
+      "siem",
+      "splunk",
+      "incident response",
+      "owasp",
+      "ethical hacking",
+      "compliance",
+      "soc",
+      "vulnerability assessment"
+    ],
+    "roadmap_steps": [
+      "Learn computer networking fundamentals (TCP/IP, OSI model).",
+      "Understand operating systems, particularly Linux administration.",
+      "Learn network security monitoring and packet analysis (Wireshark).",
+      "Gain experience with vulnerability scanners and SIEM tools.",
+      "Study for foundational certifications (CompTIA Security+)."
+    ]
+  },
+  {
+    "role": "Security Engineer",
+    "description": "Design and implement secure network solutions. Conduct penetration testing, secure code reviews, and automate security infrastructure.",
+    "required_skills": [
+      "Application Security",
+      "Penetration Testing",
+      "Security Architecture",
+      "Secure Coding",
+      "Cloud Security",
+      "Identity Access Management"
+    ],
+    "tools": [
+      "Python",
+      "Bash",
+      "AWS/Azure Security",
+      "Burp Suite",
+      "OWASP ZAP",
+      "Terraform"
+    ],
+    "keywords": [
+      "security engineering",
+      "penetration testing",
+      "appsec",
+      "secure coding",
+      "cloud security",
+      "iam",
+      "python",
+      "bash",
+      "aws",
+      "azure",
+      "burp suite",
+      "owasp zap",
+      "terraform",
+      "cryptography",
+      "zero trust"
+    ],
+    "roadmap_steps": [
+      "Master system administration and scripting (Python, Bash).",
+      "Learn Application Security (AppSec) and the OWASP Top 10.",
+      "Gain hands-on experience with penetration testing tools.",
+      "Understand Cloud Security architectures and IAM policies.",
+      "Learn to implement DevSecOps in CI/CD pipelines."
+    ]
+  },
+  {
+    "role": "DevOps Engineer",
+    "description": "Bridge the gap between development and operations. Automate infrastructure, manage CI/CD pipelines, and ensure system reliability and scalability.",
+    "required_skills": [
+      "CI/CD",
+      "Infrastructure as Code",
+      "Containerization",
+      "Orchestration",
+      "Monitoring",
+      "Linux Administration",
+      "Cloud Computing"
+    ],
+    "tools": [
+      "Docker",
+      "Kubernetes",
+      "Jenkins",
+      "Terraform",
+      "Ansible",
+      "Linux",
+      "Git",
+      "AWS"
+    ],
+    "keywords": [
+      "docker",
+      "kubernetes",
+      "k8s",
+      "aws",
+      "azure",
+      "gcp",
+      "ci/cd",
+      "jenkins",
+      "gitlab ci",
+      "terraform",
+      "ansible",
+      "linux",
+      "bash",
+      "git",
+      "monitoring",
+      "prometheus",
+      "grafana",
+      "nginx",
+      "helm",
+      "cloud computing"
+    ],
+    "roadmap_steps": [
+      "Master Linux operating system and shell scripting.",
+      "Learn Containerization using Docker.",
+      "Learn Continuous Integration/Continuous Deployment (CI/CD) tools.",
+      "Master Infrastructure as Code (Terraform, Ansible).",
+      "Learn Container Orchestration using Kubernetes."
+    ]
+  },
+  {
+    "role": "Cloud Engineer",
+    "description": "Design, deploy, and manage cloud infrastructure. Ensure high availability, security, and cost-efficiency of cloud-based applications.",
+    "required_skills": [
+      "Cloud Architecture",
+      "Networking",
+      "Security",
+      "Serverless",
+      "Infrastructure as Code",
+      "Cost Optimization"
+    ],
+    "tools": [
+      "AWS",
+      "Azure",
+      "GCP",
+      "Terraform",
+      "Docker",
+      "Linux",
+      "Python/Bash"
+    ],
+    "keywords": [
+      "aws",
+      "azure",
+      "gcp",
+      "cloud computing",
+      "cloud architecture",
+      "serverless",
+      "lambda",
+      "s3",
+      "ec2",
+      "docker",
+      "kubernetes",
+      "terraform",
+      "networking",
+      "vpc",
+      "iam",
+      "cloud migration"
+    ],
+    "roadmap_steps": [
+      "Learn fundamental IT concepts (Networking, Virtualization).",
+      "Gain deep expertise in one major cloud provider (AWS, Azure, or GCP).",
+      "Learn Infrastructure as Code (Terraform or CloudFormation).",
+      "Understand cloud security best practices and IAM.",
+      "Pursue an associate-level Cloud Certification."
+    ]
+  },
+  {
+    "role": "MLOps Engineer",
+    "description": "Combine Machine Learning and DevOps to deploy, monitor, and maintain ML models in production reliably and efficiently.",
+    "required_skills": [
+      "Machine Learning",
+      "Model Deployment",
+      "CI/CD",
+      "Containerization",
+      "Data Pipelines",
+      "Monitoring"
+    ],
+    "tools": [
+      "Python",
+      "Docker",
+      "Kubernetes",
+      "MLflow",
+      "Kubeflow",
+      "AWS SageMaker",
+      "Git"
+    ],
+    "keywords": [
+      "mlops",
+      "machine learning",
+      "model deployment",
+      "ci/cd",
+      "docker",
+      "kubernetes",
+      "mlflow",
+      "kubeflow",
+      "aws sagemaker",
+      "airflow",
+      "python",
+      "model tracking",
+      "data pipelines",
+      "feature store"
+    ],
+    "roadmap_steps": [
+      "Understand basic Machine Learning concepts and model lifecycles.",
+      "Master DevOps fundamentals (Docker, CI/CD, Linux).",
+      "Learn model tracking and registry tools (MLflow, Weights & Biases).",
+      "Gain experience with workflow orchestration (Airflow, Kubeflow).",
+      "Learn to deploy and monitor models on cloud infrastructure."
+    ]
+  },
+  {
+    "role": "Blockchain Developer",
+    "description": "Build decentralized applications (DApps) and smart contracts on blockchain platforms. Work with cryptography and consensus mechanisms.",
+    "required_skills": [
+      "Blockchain Architecture",
+      "Smart Contracts",
+      "Cryptography",
+      "Decentralized Storage",
+      "Web3 Integration"
+    ],
+    "tools": [
+      "Solidity",
+      "Rust",
+      "Ethereum",
+      "Hardhat",
+      "Web3.js",
+      "Ethers.js",
+      "IPFS",
+      "Git"
+    ],
+    "keywords": [
+      "solidity",
+      "ethereum",
+      "web3",
+      "web3.js",
+      "ethers.js",
+      "smart contracts",
+      "blockchain",
+      "hardhat",
+      "truffle",
+      "metamask",
+      "ipfs",
+      "defi",
+      "nft",
+      "rust",
+      "cryptography",
+      "dapps",
+      "consensus"
+    ],
+    "roadmap_steps": [
+      "Understand how blockchains and consensus mechanisms work.",
+      "Learn a smart contract language like Solidity or Rust.",
+      "Master blockchain development frameworks (Hardhat or Foundry).",
+      "Learn to connect frontend apps to the blockchain (Web3.js/ethers.js).",
+      "Study smart contract security and common vulnerabilities."
+    ]
+  },
+  {
+    "role": "Mobile Developer",
+    "description": "Develop and deploy applications for mobile devices. Work with native or cross-platform frameworks, optimizing for mobile performance and UX.",
+    "required_skills": [
+      "Mobile UI Design",
+      "API Integration",
+      "State Management",
+      "App Publishing",
+      "Performance Optimization"
+    ],
+    "tools": [
+      "React Native",
+      "Flutter",
+      "Swift",
+      "Kotlin",
+      "Android Studio",
+      "Xcode",
+      "Git"
+    ],
+    "keywords": [
+      "react native",
+      "flutter",
+      "swift",
+      "kotlin",
+      "java",
+      "dart",
+      "ios",
+      "android",
+      "mobile development",
+      "firebase",
+      "xcode",
+      "android studio",
+      "ui/ux",
+      "rest api",
+      "sqlite",
+      "expo"
+    ],
+    "roadmap_steps": [
+      "Choose a path: Native (Swift/Kotlin) or Cross-platform (React Native/Flutter).",
+      "Learn the fundamentals of mobile UI layout and navigation.",
+      "Understand how to consume REST APIs and manage local storage.",
+      "Learn state management specific to your chosen framework.",
+      "Learn the process of building, signing, and deploying to App Stores."
+    ]
+  },
+  {
+    "role": "Game Developer",
+    "description": "Design and program interactive video games. Work with game engines, physics, rendering, and AI behaviors.",
+    "required_skills": [
+      "Game Design",
+      "3D Mathematics",
+      "Physics Engines",
+      "Rendering",
+      "Game AI",
+      "Performance Optimization"
+    ],
+    "tools": [
+      "Unity",
+      "Unreal Engine",
+      "C#",
+      "C++",
+      "Blender",
+      "Git"
+    ],
+    "keywords": [
+      "game development",
+      "unity",
+      "unreal engine",
+      "c#",
+      "c++",
+      "csharp",
+      "cpp",
+      "game design",
+      "3d math",
+      "physics",
+      "rendering",
+      "opengl",
+      "directx",
+      "blender",
+      "game ai"
+    ],
+    "roadmap_steps": [
+      "Learn an object-oriented programming language (C# or C++).",
+      "Choose a Game Engine (Unity or Unreal) and learn its ecosystem.",
+      "Understand fundamental 3D mathematics and physics.",
+      "Learn about rendering pipelines and shaders.",
+      "Build small, complete games to understand the full development cycle."
+    ]
+  },
+  {
+    "role": "AI Engineer",
+    "description": "Apply artificial intelligence to solve complex problems. Focus on deep learning, generative AI, natural language processing, or robotics.",
+    "required_skills": [
+      "Deep Learning",
+      "Generative AI",
+      "NLP",
+      "Mathematics",
+      "Algorithm Design",
+      "Prompt Engineering"
+    ],
+    "tools": [
+      "Python",
+      "PyTorch",
+      "TensorFlow",
+      "Hugging Face",
+      "OpenAI API",
+      "LangChain"
+    ],
+    "keywords": [
+      "artificial intelligence",
+      "ai",
+      "deep learning",
+      "generative ai",
+      "llm",
+      "nlp",
+      "computer vision",
+      "python",
+      "pytorch",
+      "tensorflow",
+      "hugging face",
+      "openai",
+      "langchain",
+      "prompt engineering",
+      "neural networks"
+    ],
+    "roadmap_steps": [
+      "Build a strong foundation in Python and Mathematics.",
+      "Master Deep Learning frameworks and neural network architectures.",
+      "Learn specialized domains like NLP or Computer Vision.",
+      "Gain experience with Large Language Models (LLMs) and Prompt Engineering.",
+      "Learn to build AI agents and integrate with APIs (LangChain)."
+    ]
+  },
+  {
+    "role": "Product Manager",
+    "description": "Guide the lifecycle of a product from conception to launch. Unify business goals, engineering constraints, and user needs.",
+    "required_skills": [
+      "Agile Methodology",
+      "Product Strategy",
+      "User Research",
+      "Data Analysis",
+      "Communication",
+      "Roadmapping"
+    ],
+    "tools": [
+      "Jira",
+      "Confluence",
+      "Figma",
+      "Google Analytics",
+      "Excel",
+      "Notion"
+    ],
+    "keywords": [
+      "product management",
+      "agile",
+      "scrum",
+      "product strategy",
+      "user research",
+      "jira",
+      "confluence",
+      "figma",
+      "data analysis",
+      "roadmapping",
+      "wireframing",
+      "ab testing",
+      "metrics"
+    ],
+    "roadmap_steps": [
+      "Understand Agile methodologies and Scrum frameworks.",
+      "Learn to conduct user research and define user personas.",
+      "Master the art of creating effective product requirements documents (PRDs).",
+      "Learn to prioritize features and create product roadmaps.",
+      "Understand metrics and data analysis to measure product success."
+    ]
+  },
+  {
+    "role": "Software Engineer",
+    "description": "Design, develop, and maintain software systems. Solve complex algorithmic challenges and ensure high code quality.",
+    "required_skills": [
+      "Data Structures",
+      "Algorithms",
+      "Object-Oriented Programming",
+      "System Design",
+      "Testing",
+      "Debugging"
+    ],
+    "tools": [
+      "Java",
+      "Python",
+      "C++",
+      "C#",
+      "Git",
+      "Docker",
+      "Linux"
+    ],
+    "keywords": [
+      "software engineering",
+      "data structures",
+      "algorithms",
+      "oop",
+      "system design",
+      "java",
+      "python",
+      "c++",
+      "c#",
+      "git",
+      "docker",
+      "linux",
+      "agile",
+      "testing",
+      "debugging"
+    ],
+    "roadmap_steps": [
+      "Master core programming concepts and Data Structures/Algorithms.",
+      "Become proficient in at least one statically typed language (Java, C++, C#).",
+      "Learn software design patterns and Object-Oriented Principles.",
+      "Understand Version Control (Git) and collaborative development.",
+      "Study basic System Design and architecture patterns."
+    ]
+  },
+  {
+    "role": "QA Engineer",
+    "description": "Ensure software quality through automated and manual testing. Design test plans, identify bugs, and maintain testing frameworks.",
+    "required_skills": [
+      "Test Automation",
+      "Manual Testing",
+      "CI/CD Integration",
+      "Bug Tracking",
+      "API Testing",
+      "Performance Testing"
+    ],
+    "tools": [
+      "Selenium",
+      "Cypress",
+      "Jest",
+      "Postman",
+      "Jira",
+      "Python",
+      "Java"
+    ],
+    "keywords": [
+      "qa",
+      "quality assurance",
+      "test automation",
+      "manual testing",
+      "selenium",
+      "cypress",
+      "jest",
+      "postman",
+      "jira",
+      "api testing",
+      "performance testing",
+      "jmeter",
+      "python",
+      "java",
+      "ci/cd"
+    ],
+    "roadmap_steps": [
+      "Understand the software testing lifecycle and manual testing principles.",
+      "Learn a programming language to write test scripts (Python, JS, Java).",
+      "Master UI automation tools like Selenium or Cypress.",
+      "Learn API testing using tools like Postman.",
+      "Integrate automated tests into CI/CD pipelines."
+    ]
+  },
+  {
+    "role": "Site Reliability Engineer",
+    "description": "Apply software engineering practices to IT operations. Focus on system availability, latency, performance, efficiency, and capacity planning.",
+    "required_skills": [
+      "Linux Administration",
+      "Automation",
+      "Monitoring",
+      "Incident Management",
+      "Capacity Planning",
+      "System Design"
+    ],
+    "tools": [
+      "Linux",
+      "Python",
+      "Go",
+      "Kubernetes",
+      "Prometheus",
+      "Grafana",
+      "Terraform",
+      "PagerDuty"
+    ],
+    "keywords": [
+      "sre",
+      "site reliability engineering",
+      "monitoring",
+      "prometheus",
+      "grafana",
+      "incident management",
+      "sli/slo",
+      "kubernetes",
+      "terraform",
+      "linux",
+      "python",
+      "go",
+      "automation",
+      "capacity planning"
+    ],
+    "roadmap_steps": [
+      "Master Linux system administration and networking.",
+      "Learn to automate operational tasks using Python or Go.",
+      "Understand Service Level Objectives (SLOs) and Error Budgets.",
+      "Master monitoring, alerting, and observability tools.",
+      "Learn incident response practices and post-mortem analysis."
+    ]
+  },
+  {
+    "role": "Systems Engineer",
+    "description": "Manage and scale complex server infrastructures. Ensure operating systems, networks, and hardware resources are optimized and secure.",
+    "required_skills": [
+      "Operating Systems",
+      "Networking",
+      "Virtualization",
+      "Scripting",
+      "Storage Management",
+      "Backup & Recovery"
+    ],
+    "tools": [
+      "Linux",
+      "Windows Server",
+      "VMware",
+      "Bash",
+      "PowerShell",
+      "Active Directory"
+    ],
+    "keywords": [
+      "systems engineering",
+      "linux",
+      "windows server",
+      "networking",
+      "virtualization",
+      "vmware",
+      "bash",
+      "powershell",
+      "active directory",
+      "storage",
+      "backups",
+      "hardware",
+      "infrastructure"
+    ],
+    "roadmap_steps": [
+      "Gain deep knowledge of Operating Systems (Linux, Windows Server).",
+      "Understand networking protocols, routing, and switching.",
+      "Learn virtualization technologies (VMware, Hyper-V).",
+      "Master scripting languages for administration (Bash, PowerShell).",
+      "Learn enterprise storage, backup, and disaster recovery strategies."
+    ]
+  }
+]

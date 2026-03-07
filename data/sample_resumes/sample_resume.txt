@@ -1,0 +1,77 @@
+ARJUN SHARMA
+Email: arjun.sharma@email.com | Phone: +91-9876543210 | LinkedIn: linkedin.com/in/arjunsharma
+Location: Bangalore, India
+
+================================================================================
+EDUCATION
+================================================================================
+B.Tech in Computer Science and Engineering
+Indian Institute of Technology, Delhi — 2020 - 2024
+CGPA: 8.7/10
+
+Higher Secondary (CBSE) — DPS R.K. Puram, New Delhi — 2020
+Percentage: 95.4%
+
+================================================================================
+SKILLS
+================================================================================
+Programming Languages: Python, JavaScript, C++, Java, SQL
+Frameworks & Libraries: React, Node.js, Express, Flask, TensorFlow, PyTorch, scikit-learn
+Tools & Platforms: Git, Docker, AWS, MongoDB, PostgreSQL, Linux, Jupyter Notebook
+Other: REST APIs, Machine Learning, Data Structures, Algorithms, Agile, CI/CD
+
+================================================================================
+PROJECTS
+================================================================================
+
+1. Smart Traffic Management System
+   Tech Stack: Python, TensorFlow, OpenCV, Flask
+   Domain: Computer Vision / IoT
+   - Built a real-time traffic density estimator using YOLOv5 object detection.
+   - Designed a Flask API to serve predictions to a web dashboard.
+   - Achieved 91% accuracy on a custom-labeled dataset of 5,000 images.
+
+2. E-Commerce Recommendation Engine
+   Tech Stack: Python, scikit-learn, Pandas, PostgreSQL
+   Domain: Machine Learning
+   - Developed collaborative filtering and content-based recommendation models.
+   - Processed 100K+ user-product interactions to generate personalized suggestions.
+   - Deployed via REST API with a React frontend.
+
+3. Real-Time Chat Application
+   Tech Stack: Node.js, Express, Socket.io, MongoDB, React
+   Domain: Full-Stack Web Development
+   - Built a real-time messaging platform supporting 500+ concurrent users.
+   - Implemented JWT-based authentication and role-based access control.
+   - Deployed on AWS EC2 with Nginx reverse proxy.
+
+4. Personal Portfolio Website
+   Tech Stack: React, CSS, Vercel
+   Domain: Frontend Development
+   - Designed a responsive portfolio with dark mode, animations, and project showcase.
+   - Integrated blog section using Markdown rendering.
+
+================================================================================
+ACHIEVEMENTS
+================================================================================
+- Won 1st place at Smart India Hackathon 2023 (Software Edition).
+- Google Summer of Code 2023 participant — contributed to TensorFlow.js.
+- Certified AWS Solutions Architect – Associate.
+- Published a paper on "Efficient Object Detection for Edge Devices" at ICML Workshop 2023.
+- LeetCode rating: 2100+ (Knight badge).
+
+================================================================================
+EXTRACURRICULAR ACTIVITIES
+================================================================================
+- Technical Lead, Google Developer Student Club (GDSC), IIT Delhi (2022-2023).
+- Volunteer, Teach For India — taught Python programming to underprivileged students.
+- Member, Robotics Club — participated in Robocon 2022.
+- Organized college-level hackathon "CodeStorm" with 300+ participants.
+- Active open-source contributor on GitHub with 50+ stars across repositories.
+
+================================================================================
+CERTIFICATIONS
+================================================================================
+- AWS Solutions Architect – Associate (Amazon Web Services)
+- Deep Learning Specialization (Coursera, Andrew Ng)
+- Full-Stack Web Development Bootcamp (Udemy)

@@ -1,0 +1,155 @@
+# 🚀 ResumeGPT — AI-Powered Career Path Analyzer
+
+A full-stack application that parses resumes, extracts key entities using NLP, and recommends career paths using semantic embeddings.
+
+![Python](https://img.shields.io/badge/Python-3.9+-3776AB?logo=python&logoColor=white)
+![FastAPI](https://img.shields.io/badge/FastAPI-009688?logo=fastapi&logoColor=white)
+![React](https://img.shields.io/badge/React-18-61DAFB?logo=react&logoColor=black)
+![Chart.js](https://img.shields.io/badge/Chart.js-FF6384?logo=chartdotjs&logoColor=white)
+
+---
+
+## ✨ Features
+
+| Feature | Description |
+|---------|-------------|
+| **Resume Parsing** | Upload PDF, DOCX, or TXT resumes |
+| **Entity Extraction** | Detects Skills, Projects, Achievements, Extracurriculars |
+| **Career Matching** | Semantic similarity using Sentence Transformers (all-MiniLM-L6-v2) |
+| **Skill Gap Analysis** | Identifies missing skills for recommended career paths |
+| **Interactive Charts** | Bar & Radar charts via Chart.js |
+| **Premium UI** | Dark-mode glassmorphism design with animations |
+
+---
+
+## 📁 Folder Structure
+
+```
+ResumeGPT/
+├── backend/
+│   ├── app.py                              # FastAPI main (REST API)
+│   ├── requirements.txt                    # Python dependencies
+│   └── models/
+│       ├── resume_parser.py                # PDF/DOCX/TXT parsing
+│       ├── resume_ner_model/
+│       │   └── extractor.py                # Entity extraction (spaCy + regex)
+│       └── career_match_model/
+│           └── matcher.py                  # Semantic career matching
+├── frontend/
+│   ├── package.json
+│   └── src/
+│       ├── App.js                          # Main React component
+│       ├── App.css                         # Styling
+│       └── components/
+│           ├── ResumeUpload.js             # File upload (drag & drop)
+│           ├── SkillList.js                # Skills display
+│           ├── ProjectAnalysis.js          # Projects + achievements
+│           └── CareerChart.js              # Career fit charts
+├── data/
+│   ├── career_roles.json                   # 10 predefined career roles
+│   └── sample_resumes/
+│       └── sample_resume.txt               # Sample resume for testing
+└── README.md
+```
+
+---
+
+## 🛠️ Quick Start
+
+### Prerequisites
+- **Python 3.9+** with pip
+- **Node.js 16+** with npm
+
+### 1. Backend Setup
+
+```bash
+cd backend
+pip install -r requirements.txt
+python -m spacy download en_core_web_sm
+uvicorn app:app --reload --port 8000
+```
+
+> **Note:** The first request will download the Sentence Transformers model (~80 MB). Subsequent requests are fast.
+
+### 2. Frontend Setup
+
+```bash
+cd frontend
+npm install
+npm start
+```
+
+The app opens at **http://localhost:3000**.
+
+### 3. Test
+
+Upload `data/sample_resumes/sample_resume.txt` through the UI, or test the API directly:
+
+```bash
+curl -X POST http://localhost:8000/analyze \
+  -F "file=@data/sample_resumes/sample_resume.txt"
+```
+
+---
+
+## 🔌 API Reference
+
+### `POST /analyze`
+
+Upload a resume file and get structured analysis.
+
+**Request:** `multipart/form-data` with field `file` (PDF/DOCX/TXT)
+
+**Response:**
+```json
+{
+  "filename": "resume.pdf",
+  "skills": ["Python", "React", "Docker", ...],
+  "projects": [
+    {
+      "name": "Smart Traffic System",
+      "tech_stack": ["Python", "TensorFlow", "OpenCV"],
+      "domain": "Computer Vision / IoT"
+    }
+  ],
+  "achievements": ["Won 1st place at Smart India Hackathon 2023", ...],
+  "extracurriculars": ["Technical Lead, GDSC", ...],
+  "career_suggestions": [
+    { "role": "Full-Stack Web Developer", "score": 78.3, "skill_gaps": ["graphql", "next.js"] },
+    { "role": "Machine Learning Engineer", "score": 72.1, "skill_gaps": ["mlops"] },
+    { "role": "Backend Engineer", "score": 68.5, "skill_gaps": ["celery", "rabbitmq"] }
+  ]
+}
+```
+
+---
+
+## 🧠 Tech Stack
+
+| Layer | Technology |
+|-------|-----------|
+| Backend | Python, FastAPI, Uvicorn |
+| NLP/ML | spaCy, Sentence Transformers, scikit-learn, NLTK |
+| Resume Parsing | pdfminer.six, docx2txt |
+| Frontend | React 18, Chart.js, Axios |
+| Deployment | Render (backend), Vercel (frontend) |
+
+---
+
+## 🚢 Deployment
+
+### Backend (Render)
+1. Create a new **Web Service** on Render.
+2. Set build command: `pip install -r requirements.txt && python -m spacy download en_core_web_sm`
+3. Set start command: `uvicorn app:app --host 0.0.0.0 --port $PORT`
+
+### Frontend (Vercel)
+1. Import the `frontend/` directory.
+2. Set `REACT_APP_API_URL` environment variable to your backend URL.
+3. Deploy.
+
+---
+
+## 📄 License
+
+MIT
