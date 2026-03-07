@@ -85,7 +85,14 @@ const CareerCard = ({ career }) => {
         <div className="card career-card">
             {/* Header: Title and Fit Score */}
             <div className="career-header">
-                <h2>{career.role}</h2>
+                <div style={{ display: 'flex', alignItems: 'center', gap: '10px' }}>
+                    <h2>{career.role}</h2>
+                    {career.is_highly_suitable && (
+                        <span className="status-chip" style={{ backgroundColor: 'rgba(16, 185, 129, 0.2)', color: '#10b981', marginLeft: '10px', fontSize: '0.8rem', padding: '4px 8px' }}>
+                            ★ Highly Suitable
+                        </span>
+                    )}
+                </div>
                 <div className="fit-score-badge">
                     <span>{career.score}% Fit</span>
                 </div>

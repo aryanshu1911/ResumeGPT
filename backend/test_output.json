@@ -1,0 +1,261 @@
+[
+  {
+    "role": "Full Stack Developer",
+    "score": 48.7,
+    "skill_coverage": 60.0,
+    "matching_skills": [
+      "AWS",
+      "Docker",
+      "Express",
+      "Git",
+      "JavaScript",
+      "MongoDB",
+      "Node.js",
+      "React",
+      "SQL"
+    ],
+    "missing_skills": [
+      "API Design",
+      "Backend Development",
+      "Database Management",
+      "Deployment",
+      "Frontend Development",
+      "Version Control"
+    ],
+    "transferable_skills": [
+      "C",
+      "C++",
+      "Flask",
+      "Github",
+      "Java",
+      "Jupyter",
+      "Linux",
+      "Pandas",
+      "Postgresql",
+      "Python",
+      "Pytorch",
+      "R",
+      "Scikit-Learn",
+      "Tensorflow",
+      "Vercel"
+    ],
+    "career_recommendation_summary": "Good match. You have foundational skills like AWS, Docker, but need to acquire API Design, Backend Development.",
+    "roadmap_steps": [
+      "Master the frontend stack (HTML/CSS/JS/React).",
+      "Learn backend development and API creation (Node.js/Python).",
+      "Learn database design (SQL and NoSQL).",
+      "Understand authentication and authorization strategies.",
+      "Learn basic DevOps for deployment (Docker, CI/CD)."
+    ],
+    "is_highly_suitable": false
+  },
+  {
+    "role": "Backend Developer",
+    "score": 38.9,
+    "skill_coverage": 50.0,
+    "matching_skills": [
+      "Docker",
+      "Git",
+      "Java",
+      "MongoDB",
+      "Node.js",
+      "PostgreSQL",
+      "Python",
+      "SQL"
+    ],
+    "missing_skills": [
+      "API Design",
+      "Caching",
+      "Database Management",
+      "Programming",
+      "Redis",
+      "Security",
+      "System Design",
+      "Testing"
+    ],
+    "transferable_skills": [
+      "AWS",
+      "C",
+      "C++",
+      "Express",
+      "Flask",
+      "Github",
+      "Javascript",
+      "Jupyter",
+      "Linux",
+      "Pandas",
+      "Pytorch",
+      "R",
+      "React",
+      "Scikit-Learn",
+      "Tensorflow",
+      "Vercel"
+    ],
+    "career_recommendation_summary": "Good match. You have foundational skills like Docker, Git, but need to acquire API Design, Caching.",
+    "roadmap_steps": [
+      "Master a backend language (Python, Node.js, Java, Go).",
+      "Learn to design and build RESTful APIs.",
+      "Understand relational (SQL) and NoSQL databases.",
+      "Learn caching mechanisms (Redis) and message queues.",
+      "Study System Design and microservices architecture."
+    ],
+    "is_highly_suitable": false
+  },
+  {
+    "role": "Software Engineer",
+    "score": 44.7,
+    "skill_coverage": 46.2,
+    "matching_skills": [
+      "C++",
+      "Docker",
+      "Git",
+      "Java",
+      "Linux",
+      "Python"
+    ],
+    "missing_skills": [
+      "Algorithms",
+      "C#",
+      "Data Structures",
+      "Debugging",
+      "Object-Oriented Programming",
+      "System Design",
+      "Testing"
+    ],
+    "transferable_skills": [
+      "AWS",
+      "C",
+      "Express",
+      "Flask",
+      "Github",
+      "Javascript",
+      "Jupyter",
+      "Mongodb",
+      "Node.Js",
+      "Pandas",
+      "Postgresql",
+      "Pytorch",
+      "R",
+      "React",
+      "SQL",
+      "Scikit-Learn",
+      "Tensorflow",
+      "Vercel"
+    ],
+    "career_recommendation_summary": "Good match. You have foundational skills like C++, Docker, but need to acquire Algorithms, C#.",
+    "roadmap_steps": [
+      "Master core programming concepts and Data Structures/Algorithms.",
+      "Become proficient in at least one statically typed language (Java, C++, C#).",
+      "Learn software design patterns and Object-Oriented Principles.",
+      "Understand Version Control (Git) and collaborative development.",
+      "Study basic System Design and architecture patterns."
+    ],
+    "is_highly_suitable": false
+  },
+  {
+    "role": "Data Scientist",
+    "score": 43.3,
+    "skill_coverage": 40.0,
+    "matching_skills": [
+      "Jupyter",
+      "Pandas",
+      "Python",
+      "R",
+      "SQL",
+      "Scikit-Learn"
+    ],
+    "missing_skills": [
+      "A/B Testing",
+      "Data Visualization",
+      "Data Wrangling",
+      "Machine Learning",
+      "Matplotlib",
+      "Power BI",
+      "Seaborn",
+      "Statistics",
+      "Tableau"
+    ],
+    "transferable_skills": [
+      "AWS",
+      "C",
+      "C++",
+      "Docker",
+      "Express",
+      "Flask",
+      "GIT",
+      "Github",
+      "Java",
+      "Javascript",
+      "Linux",
+      "Mongodb",
+      "Node.Js",
+      "Postgresql",
+      "Pytorch",
+      "React",
+      "Tensorflow",
+      "Vercel"
+    ],
+    "career_recommendation_summary": "Emerging match. You have transferable technical knowledge, but lack core domain expertise in tools like A/B Testing, Data Visualization, Data Wrangling.",
+    "roadmap_steps": [
+      "Develop strong SQL skills for data extraction.",
+      "Master Python/R for data manipulation and statistical analysis.",
+      "Learn to build and interpret Machine Learning models.",
+      "Master data visualization tools to communicate insights (Tableau/Power BI).",
+      "Practice A/B testing and experimental design."
+    ],
+    "is_highly_suitable": false
+  },
+  {
+    "role": "Machine Learning Engineer",
+    "score": 42.4,
+    "skill_coverage": 40.0,
+    "matching_skills": [
+      "Jupyter",
+      "Pandas",
+      "PyTorch",
+      "Python",
+      "Scikit-Learn",
+      "TensorFlow"
+    ],
+    "missing_skills": [
+      "Data Science",
+      "Deep Learning",
+      "Keras",
+      "MLOps",
+      "Machine Learning",
+      "Mathematics",
+      "Model Deployment",
+      "Numpy",
+      "Statistics"
+    ],
+    "transferable_skills": [
+      "AWS",
+      "C",
+      "C++",
+      "Docker",
+      "Express",
+      "Flask",
+      "GIT",
+      "Github",
+      "Java",
+      "Javascript",
+      "Linux",
+      "Mongodb",
+      "Node.Js",
+      "Postgresql",
+      "R",
+      "React",
+      "SQL",
+      "Vercel"
+    ],
+    "career_recommendation_summary": "Emerging match. You have transferable technical knowledge, but lack core domain expertise in tools like Data Science, Deep Learning, Keras.",
+    "roadmap_steps": [
+      "Master Python and core Python data libraries (Numpy, Pandas).",
+      "Learn foundational Machine Learning algorithms (Scikit-Learn).",
+      "Dive into Deep Learning frameworks (TensorFlow or PyTorch).",
+      "Understand model evaluation metrics and hyperparameter tuning.",
+      "Learn MLOps principles: Model deployment, tracking, and scaling."
+    ],
+    "is_highly_suitable": false
+  }
+]

@@ -930,5 +930,207 @@
       "Master scripting languages for administration (Bash, PowerShell).",
       "Learn enterprise storage, backup, and disaster recovery strategies."
     ]
+  },
+  {
+    "role": "Technical Project Manager",
+    "description": "Lead cross-functional teams to deliver technology projects. Manage schedules, budgets, and communication between engineering and business stakeholders.",
+    "required_skills": [
+      "Project Management",
+      "Agile Methodology",
+      "Scrum",
+      "Risk Management",
+      "Leadership",
+      "Communication",
+      "Budgeting"
+    ],
+    "tools": [
+      "Jira",
+      "Asana",
+      "Trello",
+      "Confluence",
+      "Microsoft Project",
+      "Smartsheet"
+    ],
+    "keywords": [
+      "project management",
+      "tpm",
+      "agile",
+      "scrum",
+      "kanban",
+      "leadership",
+      "communication",
+      "cross-functional",
+      "stakeholder management",
+      "jira",
+      "budgeting",
+      "risk management"
+    ],
+    "roadmap_steps": [
+      "Understand software development lifecycles (SDLC) and Agile/Scrum.",
+      "Learn project management frameworks and consider a certification (PMP, CSM).",
+      "Master tools like Jira or Asana for tracking epics and sprints.",
+      "Develop strong communication and stakeholder management skills.",
+      "Learn to identify, assess, and mitigate project risks."
+    ]
+  },
+  {
+    "role": "Business Analyst",
+    "description": "Bridge the gap between IT and the business to improve efficiency. Elicit requirements, analyze processes, and recommend data-driven solutions.",
+    "required_skills": [
+      "Requirements Elicitation",
+      "Business Process Modeling",
+      "Data Analysis",
+      "Stakeholder Management",
+      "Problem Solving",
+      "Documentation"
+    ],
+    "tools": [
+      "Excel",
+      "Visio",
+      "Lucidchart",
+      "Tableau",
+      "Jira",
+      "SQL"
+    ],
+    "keywords": [
+      "business analysis",
+      "requirements gathering",
+      "process modeling",
+      "bpm",
+      "data analysis",
+      "stakeholder management",
+      "excel",
+      "sql",
+      "visio",
+      "uml",
+      "user stories",
+      "documentation"
+    ],
+    "roadmap_steps": [
+      "Learn how to gather and document business requirements effectively.",
+      "Master business process modeling and flowcharts.",
+      "Develop foundational Data Analysis skills (Excel, basic SQL).",
+      "Improve communication skills to bridge technical and non-technical teams.",
+      "Learn Agile methodologies and how to write clear user stories."
+    ]
+  },
+  {
+    "role": "Marketing Manager",
+    "description": "Develop and execute marketing strategies to promote brands, products, or services. Analyze market trends, manage campaigns, and drive user acquisition.",
+    "required_skills": [
+      "Digital Marketing",
+      "Content Strategy",
+      "SEO/SEM",
+      "Market Research",
+      "Campaign Management",
+      "Analytics"
+    ],
+    "tools": [
+      "Google Analytics",
+      "HubSpot",
+      "Salesforce",
+      "Mailchimp",
+      "Hootsuite",
+      "Canva"
+    ],
+    "keywords": [
+      "marketing",
+      "digital marketing",
+      "seo",
+      "sem",
+      "content strategy",
+      "social media",
+      "email marketing",
+      "campaign management",
+      "google analytics",
+      "branding",
+      "market research",
+      "hubspot"
+    ],
+    "roadmap_steps": [
+      "Understand the fundamentals of digital marketing and inbound strategies.",
+      "Learn SEO best practices and content marketing.",
+      "Master social media management and email campaign tools.",
+      "Learn to analyze marketing performance using Google Analytics.",
+      "Develop skills in paid advertising (Google Ads, Meta Ads)."
+    ]
+  },
+  {
+    "role": "Human Resources Manager",
+    "description": "Oversee the administrative and organizational functions of a company. Manage recruitment, employee relations, performance tracking, and company culture.",
+    "required_skills": [
+      "Talent Acquisition",
+      "Employee Relations",
+      "Performance Management",
+      "Conflict Resolution",
+      "Compliance",
+      "Onboarding"
+    ],
+    "tools": [
+      "Workday",
+      "BambooHR",
+      "LinkedIn Recruiter",
+      "Greenhouse",
+      "Gusto"
+    ],
+    "keywords": [
+      "human resources",
+      "hr",
+      "recruitment",
+      "talent acquisition",
+      "employee relations",
+      "performance management",
+      "onboarding",
+      "organizational development",
+      "compliance",
+      "conflict resolution",
+      "workday"
+    ],
+    "roadmap_steps": [
+      "Understand employment laws, compliance, and workplace ethics.",
+      "Learn the end-to-end recruitment and talent acquisition life cycle.",
+      "Develop conflict resolution and employee relation skills.",
+      "Master HR Information Systems (HRIS) like BambooHR or Workday.",
+      "Focus on fostering positive company culture and employee retention."
+    ]
+  },
+  {
+    "role": "Operations Manager",
+    "description": "Ensure the business runs smoothly and efficiently. Manage resources, optimize daily operations, streamline processes, and handle supply chain or logistics.",
+    "required_skills": [
+      "Process Optimization",
+      "Resource Management",
+      "Supply Chain Operations",
+      "Strategic Planning",
+      "Quality Assurance",
+      "Budgeting"
+    ],
+    "tools": [
+      "SAP",
+      "Oracle ERP",
+      "Excel",
+      "Monday.com",
+      "Tableau"
+    ],
+    "keywords": [
+      "operations management",
+      "process improvement",
+      "supply chain",
+      "logistics",
+      "resource management",
+      "strategic planning",
+      "six sigma",
+      "lean",
+      "quality assurance",
+      "budgeting",
+      "erp"
+    ],
+    "roadmap_steps": [
+      "Learn principles of process improvement (e.g., Lean or Six Sigma).",
+      "Understand supply chain management and logistics.",
+      "Develop strong financial literacy for budgeting and resource allocation.",
+      "Master ERP systems and tools for operational tracking.",
+      "Focus on strategic planning to align daily operations with business goals."
+    ]
   }
 ]

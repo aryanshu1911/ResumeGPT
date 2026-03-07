@@ -21,15 +21,19 @@ print(f"Frameworks: {len(skills.get('frameworks', []))}")
 print(f"Data: {len(skills.get('data', []))}")
 
 print('Matching careers...')
-suggestions = match_career(text, entities['skills'], top_n=3)
+suggestions = match_career(text, entities, top_n=5)
 
-for s in suggestions:
-    print(f"\n>> {s['role']} (Fit: {s['score']}%)")
-    print(f"Recommendation: {s['career_recommendation_summary']}")
-    print(f"Coverage: {s['skill_coverage']}%")
-    print(f"Matching: {', '.join(s['matching_skills'])}")
-    print(f"Missing (Gaps): {', '.join(s['missing_skills'])}")
-    print(f"Transferable: {', '.join(s['transferable_skills'])}")
-    print(f"Roadmap Steps: {len(s['roadmap_steps'])}")
+if not suggestions:
+    print("Fallback trigger: No roles matched.")
+else:
+    for s in suggestions:
+        hs_str = " [HIGHLY SUITABLE]" if s.get('is_highly_suitable') else ""
+        print(f"\n>> {s['role']}{hs_str} (Score: {s['score']}%)")
+        print(f"Recommendation: {s['career_recommendation_summary']}")
+        print(f"Coverage: {s['skill_coverage']}%")
+        print(f"Matching: {', '.join(s['matching_skills'])}")
+        print(f"Missing (Gaps): {', '.join(s['missing_skills'])}")
+        print(f"Transferable: {', '.join(s['transferable_skills'])}")
+        print(f"Roadmap Steps: {len(s['roadmap_steps'])}")
 
 print('\nDone!')

@@ -17,9 +17,9 @@ from models.resume_ner_model.extractor import extract_entities
 from models.career_match_model.matcher import match_career
 
 app = FastAPI(
-    title="Career Path Analyzer API V2",
+    title="Career Path Analyzer API",
     description="Upload a resume and get AI-powered career recommendations with deep skill analytics.",
-    version="2.0.0",
+    version="1.0.0",
 )
 
 app.add_middleware(
@@ -37,7 +37,7 @@ _ANALYSIS_CACHE = {}
 
 @app.get("/")
 def root():
-    return {"status": "ok", "message": "Career Path Analyzer API V2 running."}
+    return {"status": "ok", "message": "Career Path Analyzer API running."}
 
 @app.post("/analyze")
 async def analyze_resume(file: UploadFile = File(...)):
@@ -68,8 +68,14 @@ async def analyze_resume(file: UploadFile = File(...)):
 
         entities = extract_entities(resume_text)
         
-        # pass the categorized full skills dictionary as the second parameter
-        career_suggestions = match_career(resume_text, entities["skills"], top_n=3)
+        # pass the full extracted entities dictionary as the second parameter for holistic matching
+        career_suggestions = match_career(resume_text, entities, top_n=5)
+
+        # Handle fallback check
+        is_fallback = False
+        if not career_suggestions:
+            is_fallback = True
+            # We can optionally include a generic roadmap here if needed
 
         response_data = {
             "filename": file.filename,
@@ -78,6 +84,7 @@ async def analyze_resume(file: UploadFile = File(...)):
             "achievements": entities["achievements"],
             "extracurriculars": entities["extracurriculars"],
             "career_suggestions": career_suggestions,
+            "is_fallback": is_fallback,
         }
 
         # Save to cache

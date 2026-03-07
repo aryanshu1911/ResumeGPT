@@ -63,7 +63,7 @@ function App() {
                 <path d="M22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z" />
               </svg>
             </div>
-            <h1>ResumeGPT <span>v2</span></h1>
+            <h1>ResumeGPT</h1>
           </div>
           <p className="tagline">
             AI-Powered Career Advisor
@@ -106,23 +106,47 @@ function App() {
               extracurriculars={results.extracurriculars}
             />
 
-            {/* V2 Career Suggestions rendered as Individual Detailed Cards */}
-            {results.career_suggestions && results.career_suggestions.length > 0 && (
-              <div className="career-suggestions-container">
-                <div className="card-header" style={{ marginBottom: "20px", marginTop: "30px" }}>
-                  <div className="card-icon career">
+            {/* Results Handling: Fallback or Career Suggestions */}
+            {results.is_fallback ? (
+              <div className="career-suggestions-container fallback-container">
+                <div className="card-header" style={{ marginBottom: "20px", marginTop: "30px", color: "#f59e0b" }}>
+                  <div className="card-icon career" style={{ backgroundColor: "rgba(245, 158, 11, 0.2)", color: "#f59e0b" }}>
                     <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
-                      <line x1="18" y1="20" x2="18" y2="10" />
-                      <line x1="12" y1="20" x2="12" y2="4" />
-                      <line x1="6" y1="20" x2="6" y2="14" />
+                      <circle cx="12" cy="12" r="10"></circle>
+                      <line x1="12" y1="8" x2="12" y2="12"></line>
+                      <line x1="12" y1="16" x2="12.01" y2="16"></line>
                     </svg>
                   </div>
-                  <h2>Top Career Recommendations</h2>
+                  <h2>Skill Profile Notice</h2>
                 </div>
-                {results.career_suggestions.map((career, idx) => (
-                  <CareerCard key={idx} career={career} />
-                ))}
+                <div className="card career-card fallback-notice">
+                  <p style={{ fontSize: "1.1rem", marginBottom: "1rem" }}>
+                    Your current skill profile does not strongly match our predefined career roles yet.
+                    Roles require a minimum foundational skill coverage to provide meaningful roadmaps.
+                  </p>
+                  <p>
+                    <strong>Recommendation:</strong> Focus on foundational skills from the categories listed above, or check out general resources in your area of interest to build up your core competencies.
+                  </p>
+                </div>
               </div>
+            ) : (
+              results.career_suggestions && results.career_suggestions.length > 0 && (
+                <div className="career-suggestions-container">
+                  <div className="card-header" style={{ marginBottom: "20px", marginTop: "30px" }}>
+                    <div className="card-icon career">
+                      <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+                        <line x1="18" y1="20" x2="18" y2="10" />
+                        <line x1="12" y1="20" x2="12" y2="4" />
+                        <line x1="6" y1="20" x2="6" y2="14" />
+                      </svg>
+                    </div>
+                    <h2>Top Career Recommendations</h2>
+                  </div>
+                  {results.career_suggestions.map((career, idx) => (
+                    <CareerCard key={idx} career={career} />
+                  ))}
+                </div>
+              )
             )}
           </div>
         )}
