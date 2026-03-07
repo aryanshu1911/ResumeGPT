@@ -1,4 +1,4 @@
-# 🚀 ResumeGPT — AI-Powered Career Path Analyzer !
+# 🚀 ResumeGPT — AI-Powered Career Path Analyzer
 
 A full-stack application that parses resumes, extracts key entities using NLP, and recommends career paths using semantic embeddings.
 
