@@ -128,7 +128,6 @@ A structured analysis object containing:
 | NLP/ML | spaCy, Sentence Transformers, scikit-learn, NLTK |
 | Resume Parsing | pdfminer.six, docx2txt |
 | Frontend | React 18, Chart.js, Axios |
-| Deployment | Render (backend), Vercel (frontend) |
 
 ---
 
