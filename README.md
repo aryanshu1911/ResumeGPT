@@ -101,26 +101,22 @@ Upload a resume file and get structured analysis.
 **Request:** `multipart/form-data` with field `file` (PDF/DOCX/TXT)
 
 **Response:**
-```json
-{
-  "filename": "resume.pdf",
-  "skills": ["Python", "React", "Docker", ...],
-  "projects": [
-    {
-      "name": "Smart Traffic System",
-      "tech_stack": ["Python", "TensorFlow", "OpenCV"],
-      "domain": "Computer Vision / IoT"
-    }
-  ],
-  "achievements": ["Won 1st place at Smart India Hackathon 2023", ...],
-  "extracurriculars": ["Technical Lead, GDSC", ...],
-  "career_suggestions": [
-    { "role": "Full-Stack Web Developer", "score": 78.3, "skill_gaps": ["graphql", "next.js"] },
-    { "role": "Machine Learning Engineer", "score": 72.1, "skill_gaps": ["mlops"] },
-    { "role": "Backend Engineer", "score": 68.5, "skill_gaps": ["celery", "rabbitmq"] }
-  ]
-}
-```
+**Response:**
+
+A structured analysis object containing:
+
+- **`filename`** *(string)*: Name of the uploaded resume.
+- **`skills`** *(array of strings)*: Extracted key technical skills.
+- **`projects`** *(array of objects)*: Detected projects including:
+  - `name`: Project title.
+  - `tech_stack`: Array of technologies used.
+  - `domain`: Broad functional area (e.g., Computer Vision).
+- **`achievements`** *(array of strings)*: Extracted distinct awards, ranks, or accomplishments.
+- **`extracurriculars`** *(array of strings)*: Extracted leadership roles, volunteer work, or clubs.
+- **`career_suggestions`** *(array of objects)*: Ranked list of recommended career paths containing:
+  - `role`: Recommended job title.
+  - `score`: Confidence percentage (e.g., 78.3).
+  - `skill_gaps`: Array of missing skills required for this role.
 
 ---
 
