@@ -133,4 +133,4 @@ A structured analysis object containing:
 
 ## 📄 License
 
-This project is licensed under the MIT License.
+This is an open-source project licensed under the MIT License.
