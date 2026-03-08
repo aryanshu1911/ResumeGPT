@@ -146,4 +146,4 @@ A structured analysis object containing:
 
 ## 📄 License
 
-MIT
+This project is licensed under the MIT License.
