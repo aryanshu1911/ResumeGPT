@@ -1,4 +1,4 @@
-# 🚀 ResumeGPT — AI-Powered Career Path Analyzer
+# 🚀 ResumeGPT: AI-Powered Career Path Analyzer
 
 A full-stack application that parses resumes, extracts key entities using NLP, and recommends career paths using semantic embeddings.
 
@@ -141,7 +141,6 @@ A structured analysis object containing:
 ### Frontend (Vercel)
 1. Import the `frontend/` directory.
 2. Set `REACT_APP_API_URL` environment variable to your backend URL.
-3. Deploy.
 
 ---
 
