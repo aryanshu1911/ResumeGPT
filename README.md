@@ -131,19 +131,6 @@ A structured analysis object containing:
 
 ---
 
-## 🚢 Deployment
-
-### Backend (Render)
-1. Create a new **Web Service** on Render.
-2. Set build command: `pip install -r requirements.txt && python -m spacy download en_core_web_sm`
-3. Set start command: `uvicorn app:app --host 0.0.0.0 --port $PORT`
-
-### Frontend (Vercel)
-1. Import the `frontend/` directory.
-2. Set `REACT_APP_API_URL` environment variable to your backend URL.
-
----
-
 ## 📄 License
 
 This project is licensed under the MIT License.
