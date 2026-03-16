@@ -1,5 +1,6 @@
 """
 app.py — Career Path Analyzer API (FastAPI) V2
+Updated: 2026-03-16 22:53 (Streak Maintenance)
 =============================================
 Main entry point for the backend REST API.
 
